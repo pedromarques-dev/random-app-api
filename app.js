@@ -12,7 +12,7 @@ mongoose.set("strictQuery",  true)
 
 const app = express();
 app.use(express.json())
-
+console.log("TESTE")
 
 app.use(cors())
 
